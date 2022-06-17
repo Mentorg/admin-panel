@@ -15,7 +15,7 @@ Admin Panel will assist you to manage the content of your website, including blo
 
 ### After cloning, in order to run this app, follow  the instructions below.
 
-First, open a terminal where the app content is stored (C:\laragon\www\admin-panel) and create the database which will contain all application's tables by typing the following command.
+First, open a terminal where the app content is stored (depending on the server you use, the app will be stored under different directory names, e.g. for XAMPP: 'C:\xampp\htdocs\admin-panel', for Laragon: 'C:\laragon\www\admin-panel') and create the database which will contain all application's tables by typing the following command.
 
 ```
 $ php artisan db:create
